@@ -27,3 +27,7 @@ ventaTrueque.ProcesarPago();
 IPago pagoFiado = new PagoFiado();
 Ventas ventaFiado = new Ventas(pagoFiado);
 ventaFiado.ProcesarPago(); 
+
+IPago pagoDracma = new PagoDracma();
+Ventas ventaDracma = new Ventas(pagoDracma);
+ventaDracma.ProcesarPago();
